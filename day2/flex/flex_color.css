@@ -1,0 +1,79 @@
+.fo{
+    display: flex;
+}
+.fi{
+    width: 400px;
+    height: 130px;
+    font-family: "Nanum Brush Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+}
+
+#a{
+    background-color: #1abc9c;
+}
+#b{
+    background-color: #2ecc71;
+}
+#c{
+    background-color: #3498db;
+}
+#d{
+    background-color: #9b59b6;
+}
+#e{
+    background-color: #34495e;
+}
+
+#aa{
+    background-color: #16a085;
+}
+#bb{
+    background-color: #27ae60;
+}
+#cc{
+    background-color: #2980b9;
+}
+#dd{
+    background-color: #8e44ad;
+}
+#ee{
+    background-color: #2c3e50;
+}
+
+#aaa{
+    background-color: #f1c40f;
+}
+#bbb{
+    background-color: #e67e22;
+}
+#ccc{
+    background-color: #e74c3c;
+}
+#ddd{
+    background-color: #ecf0f1;
+}
+#eee{
+    background-color: #95a5a6;
+}
+
+#aaaa{
+    background-color: #f39c12;
+}
+#bbbb{
+    background-color: #d35400;
+}
+#cccc{
+    background-color: #c0392b;
+}
+#dddd{
+    background-color: #bdc3c7;
+}
+#eeee{
+    background-color: #7f8c8d;
+}

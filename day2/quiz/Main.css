@@ -1,0 +1,12 @@
+.btna{
+    border-radius: 15px;
+    border: 1px solid gray;
+    padding: 8px 16px 8px 16px;
+    font-weight: 700;
+    text-align: center;
+    background-color: white;
+}
+.btna:active{
+    background-color: deepskyblue;
+    color: white;
+}

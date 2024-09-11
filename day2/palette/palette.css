@@ -1,0 +1,49 @@
+.ps{
+    margin-left: 100px;
+}
+
+.outline{
+    margin-left: 100px;
+}
+.inline{
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 75px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+#a{
+    background-color: #f0fbfb;
+}
+#b{
+    background-color: #d8f2f5;
+}
+#c{
+    background-color: #b6e6eb;
+}
+#d{
+    background-color: #84d3dc;
+}
+#e{
+    background-color: #45b5c4;
+}
+#f{
+    background-color: #2f9bab;
+}
+#g{
+    background-color: #2a7d90;
+}
+#h{
+    background-color: #286676;
+}
+#i{
+    background-color: #285562;
+}
+#j{
+    background-color: #254854;
+}
+#k{
+    background-color: #142f38;
+}

@@ -1,0 +1,23 @@
+div{
+    border-radius: 5px;
+    width: 400px;
+    height: 50px;
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    font-weight:bolder;
+    box-shadow: -2px -2px #F0EFE1;
+}
+.kakao{
+    background-color: #FEE502;
+    color: black;
+}
+.apple{
+    background-color: #000000;
+    color: white;
+}
+.line{
+    background-color: #03C755;
+    color: white;
+}
