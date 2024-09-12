@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'HakgyoansimDunggeunmisoTTF-B';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimDunggeunmisoTTF-B.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HakgyoansimByeolbichhaneulTTF-B';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimByeolbichhaneulTTF-B.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HakgyoansimBadasseugiTTF-L';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimBadasseugiTTF-L.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main{
+    width: auto;
+    height: 500px;
+    position: relative;
+    left: 3%;
+    display: flex;
+    flex-direction: row;
+}
+.option{
+    width: 300px;
+    border-radius: 30px;
+    color: white;
+    margin: 10px;
+}
+#a{
+    background-image: url(hotel1.jpg);
+    object-fit: scale-down;
+}
+#b{
+    background-image: url(hotel2.jpg);
+    object-fit: scale-down;
+}
+#c{
+    background-image: url(hotel3.jpg);
+    object-fit: scale-down;
+}
+#d{
+    background-image: url(hotel4.jpg);
+    object-fit: scale-down;
+}
+p{
+    position: relative;
+    left: 20px;
+}
+.ins{
+    font-family: 'HakgyoansimDunggeunmisoTTF-B';
+    font-size: 15px;
+    text-decoration: underline;
+}
+.title{
+    font-family: 'HakgyoansimByeolbichhaneulTTF-B';
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.time{
+    font-family: 'HakgyoansimBadasseugiTTF-L';
+    
+}

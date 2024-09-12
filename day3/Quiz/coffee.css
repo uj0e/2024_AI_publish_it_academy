@@ -1,0 +1,31 @@
+.box{
+    position: relative;
+    left: 40%;
+    top: 40px;
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    background-color: gray;
+}
+.coffee{
+    padding-top: 40px;
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+}
+.coffee:hover{
+    transform: scale(1.2) rotate(10deg);
+}
+.ha{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn{
+    background-color: blue;
+    width: 150px;
+    height: 40px;
+
+    color: white;
+    border: none;
+}

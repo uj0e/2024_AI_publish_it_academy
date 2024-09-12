@@ -1,0 +1,17 @@
+.box{
+    background-color: green;
+    border: 1px solid black;
+    color: white;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 45%;
+    top: 300px;
+    transition: 10s;
+}
+.box:hover{
+    border-radius: 100%;
+    color: green;
+    background-color: yellow;
+    transform: rotate(45deg) scale(5);
+}

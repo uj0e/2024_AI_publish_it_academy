@@ -1,0 +1,105 @@
+.page{
+    float: left;
+    margin-left: 20px;
+}
+.title{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.title2{
+    color: gray;
+    font-size: 40px;
+}
+.option{
+    font-size: 10px;
+    color: gray;
+}
+.go{
+    border-radius: 100%;
+    border: none;
+    color: white;
+    background-color: red;
+}
+.lf{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+.main{
+    position: relative;
+    overflow: hidden;
+    width: 280px;
+    height: 400px;
+}
+.logo{
+    position: relative;
+    left: 190px;
+    top: 340px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    z-index: 3;
+}
+.pto{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    animation: move 7.5s infinite linear;
+}
+.pto:nth-child(1){
+    background-image: url('photo1.png');
+    animation-delay: 0;
+}
+.pto:nth-child(2){
+    background-image: url(photo2.png);
+    animation-delay: -2.5s;
+}
+.pto:nth-child(3){
+    background-image: url(photo3.png);
+    animation-delay: -5s;
+}
+
+@keyframes move {
+    0% {
+      transform: translateX(0);
+    }
+    26% {
+      transform: translateX(0);
+    }
+    33% {
+      transform: translateX(-100%);
+      animation-timing-function: step-end;
+    }
+    93% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+.price{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.explain{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.like{
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 10px;
+}
+.btn{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid red;
+}
