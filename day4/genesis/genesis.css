@@ -1,0 +1,141 @@
+.mainbox{
+    width: 100vw;
+    height: 100vh;
+}
+.topbanner{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    border-bottom: 2px solid gray;
+}
+.logo{
+    position: relative;
+    padding: 20px 0;
+    margin-left: 40px;
+    width: 100px;
+    height: 30px;
+}
+.main_option{
+    width: 75%;
+    color: white;
+    margin: auto 0;
+}
+.main_btn{
+    color: white;
+    background-color: black;
+    border: none;
+    padding-right: 50px;
+    font-size: 15px;
+}
+.main_btn:active{
+    color: gray;
+}
+.serv_option{
+    width: 25%;
+    margin: auto 0;
+    display: flex;
+    flex-direction: row;
+    
+}
+.serv_btn{
+    color: white;
+    background-color: black;
+    border: none;
+    padding-left: 10px;
+    font-size: 10px;
+}
+.serv_btn:active{
+    color: gray;
+}
+.search{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+.mainbnr{
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+.text1{
+    position: relative;
+    font-size: 30px;
+    color: white;
+    left: 15%;
+    top: 10%;
+}
+.text2{
+    position: relative;
+    font-size: 60px;
+    color: white;
+    left: 15%;
+    top: 10%;
+    margin-top: 10px;
+    line-height: 110%;
+}
+.more{
+    position: relative;
+    left: 15%;
+    top: 60%;
+    color: white;
+}
+.more:hover{
+    text-decoration: underline;
+}
+.mainbanner{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    animation: slider 30s infinite;
+}
+.mainbanner:nth-child(1){
+    background-image: url(car1.jpg);
+    animation-delay: 0s;
+}
+.mainbanner:nth-child(2){
+    background-image: url(car2.jpg);
+    animation-delay: 5s;
+}
+.mainbanner:nth-child(3){
+    background-image: url(car3.jpg);
+    animation-delay: 10s;
+}
+.mainbanner:nth-child(4){
+    background-image: url(car4.jpg);
+    animation-delay: 15s;
+}
+.mainbanner:nth-child(5){
+    background-image: url(car5.jpg);
+    animation-delay: 20s;
+}
+.mainbanner:nth-child(6){
+    background-image: url(car6.jpg);
+    animation-delay: 25s;
+}
+@keyframes slider {
+    0% {
+        opacity: 0;
+        z-index: 1;
+    }
+    5% {
+        opacity: 1;
+        z-index: 2;
+    }
+    20% {
+        opacity: 1;
+        z-index: 2;
+    }
+    25% {
+        opacity: 0;
+        z-index: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
