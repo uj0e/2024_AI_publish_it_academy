@@ -1,0 +1,50 @@
+.box{
+    display: flex;
+    flex-direction: row;
+}
+
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.green{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.blue{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.yellow{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+@media screen and (min-width: 1024px) {
+    .box{
+        width: 400px;
+        height: 100px;
+    }
+    .wbox{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .box{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .box{
+        width: 100px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+}

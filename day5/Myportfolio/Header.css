@@ -1,0 +1,46 @@
+/* header */
+.logo_head{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+}
+@media screen and (max-width: 768px) {
+    .logo_head{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.logo{
+    color: white;
+    font-size: 50px;
+    font-family: 'HakgyoansimChilpanjiugaeTTF-B';
+    border: none;
+    margin: 10px;
+    background-color: black;
+}
+.title{
+    position: relative;
+    right: 1%;
+}
+
+.title_ul{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+.title_li{
+    font-family: 'HakgyoansimChilpanjiugaeTTF-B';
+    padding-top: 10px;
+}
+.title_a{
+    color: white;
+    text-decoration-line: none;
+    font-size: 20px;
+}
+.title_a:hover{
+    font-size: 25px;
+}

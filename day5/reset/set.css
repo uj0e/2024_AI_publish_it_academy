@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+}
+.one{
+    width: 100vw;
+    height: 100vh;
+    background-color: pink;
+}
+.contents{
+    width: 50%;
+    max-width: 1200px; /* 최대길이 설정 */
+    background-color: skyblue;
+    height: 100px;
+    margin: 0 auto;
+}
