@@ -6,15 +6,14 @@ public class ex01 {
     public static void main(String[] args) {
 
 
-
-/*        int total = 0;
+        int total = 0;
         for (int i = 0; i <= 100; ++i){
-            *//*if(i % 2 == 0) total += i;
-            else continue;*//*
+            /*if(i % 2 == 0) total += i;
+            else continue;*/
             if(i % 2 == 0) continue;
             else total += i;
         }
-        System.out.println(total);*/
+        System.out.println(total);
 
 /*        int total = 0;
         for(int i = 1; i <= 10; ++i){
