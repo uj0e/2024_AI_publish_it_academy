@@ -1,0 +1,18 @@
+package exam01;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class ex01 {
+    public static void main(String[] args) {
+        String[] items1 = {"항목1", "항목1", "항목1", "항목2", "항목3", "항목4", "항목5"};
+        List<String> cItems1 = Arrays.stream(items1).distinct().map(s -> String.format("**%s**", s)).toList();
+        System.out.println(Arrays.toString(items1));
+        System.out.println(cItems1);
+
+        List<String> items2 = List.of("항목1", "항목1", "항목1", "항목2", "항목3", "항목4", "항목5");
+        List<String> cItems2 = Arrays.stream(items1).distinct().map(s -> String.format("**%s**", s)).toList();
+        System.out.println(items2);
+        System.out.println(cItems2);
+    }
+}
